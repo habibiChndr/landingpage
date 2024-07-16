@@ -3,6 +3,10 @@
     margin: 0 auto;
 }
 
+.lead {
+    font-size: 1.15rem;
+}
+
 .navbar-toggler {
     border: none;
 }
@@ -44,6 +48,26 @@
     margin-left: auto;
     margin-right: auto;
     border-radius: 12px;
+}
+
+.subheading {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+
+.subheading h3 {
+    margin: 0;
+    font-size: 1.75rem;
+    color: #333;
+}
+
+.subheading p {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.5;
 }
 
 .cta {
