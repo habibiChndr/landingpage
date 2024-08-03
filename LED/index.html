@@ -41,72 +41,78 @@
             background: linear-gradient(to right, rgb(55, 65, 81), rgb(31, 41, 55));
         }
 
-        .glow {
-            box-shadow: 0 0 10px white;
-            text-shadow: 0 0 10px white;
+        .btn-glow {
+            box-shadow: 0 0 24px rgb(56 189 248);
+            animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% {
+                box-shadow: 0 0 24px rgb(56 189 248);
+            }
+            50% {
+                box-shadow: 0 0 12px rgb(56 189 248);
+            }
         }
     </style>
 </head>
 <body class="bg-black">
     <div class="max-w-mobile text-white mx-auto">
         <!-- Header -->
-        <div class="text-center bg-blue-700 py-8 shadow-lg">
-            <h1 class="text-3xl font-extrabold mx-4">Temukan Rahasia Terang Maksimal</h1>
+        <div class="text-center bg-blue-700 py-8">
+            <h1 class="text-3xl font-extrabold mx-5">Temukan Rahasia Terang Maksimal</h1>
         </div>
 
         <!-- Masalah & Solusi -->
-        <div class="bg-gray-900 py-16 shadow-lg">
-            <h2 class="text-2xl font-bold mb-4 mx-4">Mengapa Anda Membutuhkan Quarto - Super Bright Car LED?</h2>
-            <div class="mx-4 px-8 py-4 bg-gray-800-opacity-50 rounded-lg">
-                <p class="text-md">Khawatir berkendara di malam hari karena lampu kurang terang? Visibilitas buruk meningkatkan risiko kecelakaan.</p>
-                <p class="text-md mt-4">Solusi: Quarto - Super Bright Car LED memberikan pencahayaan maksimal untuk perjalanan malam yang lebih aman.</p>
-            </div>
+        <div class="bg-gray-900 py-16">
+            <h2 class="text-2xl font-bold mb-4 mx-5">Khawatir lampu mobil kurang terang di malam hari?</h2>
+            <p class="text-md mx-5">Mau berkendara lebih aman dan nyaman di malam hari? Quarto - Super Bright Car LED adalah solusi sempurna untuk pencahayaan yang optimal!</p>
         </div>
         
 
         <!-- Opening -->
-        <div class="bg-opening shadow-lg py-16">
+        <div class="bg-opening py-16">
             <div class="bg-gray-800-opacity-50 mx-5 px-8 py-4 rounded-lg glow">
                 <h2 class="text-2xl text-center font-bold">Quarto<br>Super Bright Car LED</h2><hr class="mb-4">
-                <p class="text-md text-justify">Mau berkendara lebih aman dan nyaman di malam hari? Quarto - Super Bright Car LED adalah solusi tepat untuk pencahayaan yang sempurna!</p>
+                <p class="text-md">Mau berkendara lebih aman dan nyaman di malam hari? Quarto - Super Bright Car LED adalah solusi tepat untuk pencahayaan yang sempurna!</p>
             </div>
         </div>
 
         <!-- Benefit -->
-        <div class="bg-gray-800 py-16 shadow-lg">
-            <h2 class="text-2xl font-bold mb-8 mx-4">Keunggulan Quarto</h2>
-            <div class="bg-gradient-gray-700 mx-4 my-4 px-8 py-4 border-l-2 border-white">
+        <div class="bg-gray-800 py-16">
+            <h2 class="text-2xl font-bold mb-8 mx-5">Keunggulan Quarto</h2>
+            <div class="bg-gradient-gray-700 mx-5 my-4 px-8 py-4 border-l-2 border-white">
                 <h2 class="font-semibold">Super Terang</h2><hr class="mb-2 glow">
                 <p>Nikmati visibilitas luar biasa.</p>
             </div>
-            <div class="bg-gradient-gray-700 mx-4 my-4 px-8 py-4 border-l-2 border-white">
+            <div class="bg-gradient-gray-700 mx-5 my-4 px-8 py-4 border-l-2 border-white">
                 <h2 class="font-semibold">Hemat Energi</h2><hr class="mb-2 glow">
                 <p>Konsumsi daya rendah.</p>
             </div>
-            <div class="bg-gradient-gray-700 mx-4 my-4 px-8 py-4 border-l-2 border-white">
+            <div class="bg-gradient-gray-700 mx-5 my-4 px-8 py-4 border-l-2 border-white">
                 <h2 class="font-semibold">Mudah Dipasang</h2><hr class="mb-2 glow">
                 <p>Pasang sendiri dengan mudah.</p>
             </div>
         </div>
 
         <!-- Alasan -->
-        <div class="bg-gray-900 py-16 shadow-lg">
-            <h2 class="text-2xl font-bold mb-4 mx-4">Mengapa Quarto?</h2>
-            <p class="text-md mx-4">Pilih Quarto - Super Bright Car LED karena menggunakan teknologi terbaru yang menjamin kualitas dan performa terbaik. Lampu ini anti panas sehingga tetap dingin meski digunakan dalam waktu lama, memastikan fungsi maksimal untuk kebutuhan berkendara Anda.</p>
+        <div class="bg-gray-900 py-16">
+            <h2 class="text-2xl font-bold mb-4 mx-5">Mengapa Quarto?</h2>
+            <p class="text-md mx-5">Pilih Quarto karena menggunakan teknologi terbaru yang menjamin kualitas dan performa terbaik. Lampu ini anti panas, sehingga tetap dingin meski digunakan dalam waktu lama, memastikan fungsi maksimal untuk kebutuhan berkendara Anda.</p>
         </div>
 
         <!-- Testimoni -->
-        <div class="bg-gray-800 py-16 shadow-lg">
-            <h2 class="text-2xl text-center font-bold mb-4 mx-4">Testimoni</h2>
-            <div class="bg-gradient-gray-700 mx-4 my-4 px-8 py-4 border-l-2 border-white">
-                <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita debitis reprehenderit necessitatibus, quasi, explicabo alias sit nulla adipisci harum voluptate in ut beatae magnam voluptatum odio eius numquam amet eos!</p><hr class="my-2">
+        <div class="bg-gray-800 py-16">
+            <h2 class="text-2xl font-bold mb-4 mx-5">Testimoni</h2>
+            <div class="bg-gradient-gray-700 mx-5 my-4 px-8 py-4 border-l-2 border-white">
+                <p class="text-md">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita debitis reprehenderit necessitatibus, quasi, explicabo alias sit nulla adipisci harum voluptate in ut beatae magnam voluptatum odio eius numquam amet eos!</p><hr class="my-2">
                 <div class="flex">
                     <p class="text-md font-semibold">Nama</p> <!-- Nama Pengguna -->
                     <p class="text-sm ml-auto my-auto font-light italic">2024-07-30</p> <!-- Tanggal -->
                 </div>
             </div>
-            <div class="bg-gradient-gray-700 mx-4 my-4 px-8 py-4 border-l-2 border-white">
-                <p class="text-md text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe eum asperiores amet ullam, ad earum enim quaerat, at eligendi velit voluptatum possimus qui dolorum numquam vel officiis delectus corporis nesciunt.</p><hr class="my-2">
+            <div class="bg-gradient-gray-700 mx-5 my-4 px-8 py-4 border-l-2 border-white">
+                <p class="text-md">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe eum asperiores amet ullam, ad earum enim quaerat, at eligendi velit voluptatum possimus qui dolorum numquam vel officiis delectus corporis nesciunt.</p><hr class="my-2">
                 <div class="flex">
                     <p class="text-md font-semibold">Nama</p> <!-- Nama Pengguna -->
                     <p class="text-sm ml-auto my-auto font-light italic">2024-07-30</p> <!-- Tanggal -->
@@ -115,35 +121,35 @@
         </div>
 
         <!-- Urgensi -->
-        <div class="text-center bg-gray-900 py-8 shadow-lg">
-            <h2 class="text-2xl font-bold mb-4 mx-4">Jangan Tunggu Lagi!</h2>
-            <p class="text-md mx-4">Stok terbatas, segera upgrade pencahayaan mobil Anda!</p>
+        <div class="bg-gray-900 py-16">
+            <h2 class="text-2xl font-bold mb-4 mx-5">Jangan Tunggu Lagi!</h2>
+            <p class="text-md mx-5">Stok terbatas, segera upgrade pencahayaan mobil Anda!</p>
         </div>
 
         <!-- Bonus -->
-        <div class="text-center bg-gray-800 py-16 shadow-lg">
-            <h2 class="text-2xl font-bold  mb-4 mx-4">Bonus Spesial!</h2>
-            <p class="text-md  mb-4 mx-4">Text Here</p>
+        <div class="bg-gray-800 py-16">
+            <h2 class="text-2xl font-bold  mb-4 mx-5">Promo Eksklusif</h2>
+            <p class="text-md  mb-4 mx-5">Dapatkan gratis ongkir untuk setiap pembelian Quarto - Super Bright Car LED. Segera pesan dan nikmati pencahayaan maksimal tanpa biaya tambahan!</p>
         </div>
 
         <!-- Call-To-Action (CTA) -->
-        <div class="bg-red-600 text-center flex flex-col py-16 shadow-lg">
-            <h2 class="text-2xl font-bold mb-4 mx-4">Pesan Sekarang!</h2>
-            <p class="text-md mx-4">Klik tombol di bawah ini untuk pesan sekarang dan nikmati perjalanan malam yang lebih aman dan nyaman!</p>
-            <a href="" class="text-md text-black text-center font-semibold bg-white py-4 mx-4 mt-8 rounded-lg shadow-lg hover:bg-red-800 hover:text-white"><i class="fa-solid fa-cart-shopping"></i> Pesan Sekarang</a>
+        <div class="bg-blue-950 flex flex-col py-16">
+            <h2 class="text-2xl font-bold mb-4 mx-5">Pesan Sekarang!</h2>
+            <p class="text-md mx-5">Klik tombol di bawah ini untuk pesan sekarang dan nikmati perjalanan malam yang lebih aman dan nyaman!</p>
+            <a href="" class="text-md text-black text-center font-semibold bg-white py-4 mx-5 mt-8 rounded-lg btn-glow"><i class="fa-solid fa-cart-shopping"></i> Pesan Sekarang</a>
         </div>
 
         <!-- Garansi -->
-        <div class="bg-gray-800 py-16 shadow-lg">
-            <h2 class="text-2xl text-center font-bold mb-4 mx-4">Garansi</h2>
-            <p class="text-md text-center mx-4">Jika lampu mati saat sampai, kami siap mengirimkan penggantinya. Cukup kirimkan video yang menunjukkan kondisi lampu saat diterima sebagai bukti.</p>
+        <div class="bg-gray-800 py-16">
+            <h2 class="text-2xl font-bold mb-4 mx-5">Garansi</h2>
+            <p class="text-md mx-5">Jika lampu mati saat sampai, kami siap mengirimkan penggantinya. Cukup kirimkan video yang menunjukkan kondisi lampu saat diterima sebagai bukti.</p>
         </div>
 
         <!-- NB -->
-        <div class="bg-gray-900 py-4 shadow-lg">
+        <div class="bg-gray-900 py-4">
             <div class="flex">
                 <p class="ml-4 mr-2 font-semibold text-md">NB:</p>
-                <p class="mr-4 text-justify text-md">Hasil terbaik dengan lampu LED kami membutuhkan instalasi yang benar. Pastikan mengikuti petunjuk pemasangan.</p>
+                <p class="mr-4 text-md">Hasil terbaik dengan lampu LED kami membutuhkan instalasi yang benar. Pastikan mengikuti petunjuk pemasangan.</p>
             </div>
         </div>
     </div>
